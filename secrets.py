@@ -1,2 +1,2 @@
-email = '<YOUR_HONEYGAIN_EMAIL>'
-password = '<YOUR_HONEYGAIN_PASSWORD>'
+email = 'hgmusic963@gmail.com'
+password = 'haigaminglaso1**1'
