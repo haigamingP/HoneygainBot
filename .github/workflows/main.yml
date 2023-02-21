@@ -1,4 +1,5 @@
 
+name: Auto
 on:  
   workflow_dispatch:
   schedule:
@@ -14,11 +15,6 @@ jobs:
         with:
           python-version: '3.x'
           cache: 'pip'
-      - name: Wait for Test
-        uses: fountainhead/action-wait-for-check@v1.1.0
-        with:
-          checkName: test
-          token: ${{ github.token }}
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run Script
